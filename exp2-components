@@ -1,17 +1,15 @@
 step 1 : create component with the name of form
 cmd/> ng generate component form 
-
+------------------------------------------------------
 step 2 : in src/app/app.component.html
 write code: <app-form></app-form>
-
+----------------------------------------------------
 step 3 : in src/form/form.component.html
-
 <!DOCTYPEhtml>
 <html lang="en">
 <head>
 <title>Registration details</title>
 </head>
-
 <body background="blue">
 <form>
 <fieldset>
@@ -41,6 +39,7 @@ step 3 : in src/form/form.component.html
 </form>
 </body>
 </html>
-
+-----------------------------------------------------------------------------------------------
 step 4 : output
 cmd /> ng serve --open
+-----------------------------------------------------------------------------------------------
